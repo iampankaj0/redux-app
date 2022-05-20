@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/redux-app/static/js/main.fddedca0.js",
+    "index.html": "/redux-app/index.html",
+    "main.fddedca0.js.map": "/redux-app/static/js/main.fddedca0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fddedca0.js"
+  ]
+}
