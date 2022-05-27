@@ -2,6 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
+
 const ProductComponent = () => {
 
     const products = useSelector((state) => state.allProducts.products)
@@ -14,7 +15,7 @@ const ProductComponent = () => {
                     products.map((products) => {
                         const { id, title, category, image } = products;
                         return (
-                            <div className="col-md-4 my-3" key={id}>
+                            <div className="col-md-4 col-lg-3 my-3" key={id}>
                                 <Link to={`products/${id}`}>
                                     <div className="card h-100" style={{ 'borderColor': 'darkblue' }}>
                                         <img className="card-img-top" src={image} alt='Title' />

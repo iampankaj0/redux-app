@@ -34,7 +34,9 @@ const ProductDetails = () => {
         <div className="ui grid container mt-5">
             {
                 Object.keys(product).length === 0 ? (
-                    <div>...Abhi Ruk thodi der</div>
+                    <div className="d-flex align-items-center justify-content-center">
+                        <h1>...अभी रुक थोड़ी देर</h1>
+                    </div>
                 ) : (
                     <div className="ui segment">
                         <div className="ui two column stackable center aligned grid">

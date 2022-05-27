@@ -8,6 +8,7 @@ import { Redirect } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import ProductListing from './containers/ProductListing';
 import ProductDetails from './containers/ProductDetails';
+import './App.css';
 
 const App = () => {
   return (
