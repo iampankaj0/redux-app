@@ -12,7 +12,6 @@ import ProductDetails from './containers/ProductDetails';
 const App = () => {
   return (
     <div className='main-app_page'>
-
       <Router>
         <Header />
         <Switch>
@@ -21,7 +20,6 @@ const App = () => {
         </Switch>
         <Redirect to='/' />
       </Router>
-
     </div>
   )
 }
