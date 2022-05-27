@@ -1,22 +1,27 @@
 import React from 'react';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import Header from './containers/Header';
-import ProductDetails from './containers/ProductDetails';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import ProductListing from './containers/ProductListing';
+import ProductDetails from './containers/ProductDetails';
 
 const App = () => {
   return (
-    <div style={{ 'marginTop': '50px' }}>
+    <div className='main-app_page'>
 
       <Router>
         <Header />
         <Switch>
           <Route exact path='/' component={ProductListing} />
           <Route path='/products/:productId' component={ProductDetails} />
-          <Route>404 Not Found!</Route>
-
         </Switch>
+        <Redirect to='/' />
       </Router>
+
     </div>
   )
 }
