@@ -1,3 +1,16 @@
+.header .container a {
+    text-decoration: none;
+}
+
+.header .container h1 {
+    color: #000;
+    transition: 0.4s;
+}
+
+.header .container h1:hover {
+    color: #ff5900;
+}
+
 .product_component .col-md-4 .card {
     transition: 0.4s;
     margin-top: 30px
@@ -15,6 +28,19 @@
     height: 250px;
     display: block;
     margin: auto;
+}
+
+.product_component .col-md-4 a {
+    text-decoration: none;
+}
+
+.product_component .col-md-4 .card .card-title {
+    color: #000;
+}
+
+.product_component .col-md-4 .card .card-text{
+    color: #d8d8d8;
+    font-weight: 700;
 }
 
 
