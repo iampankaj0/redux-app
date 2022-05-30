@@ -11,6 +11,8 @@ import ProductDetails from './containers/ProductDetails';
 import './App.css';
 
 const App = () => {
+
+
   return (
     <div className='main-app_page'>
       <Router>
