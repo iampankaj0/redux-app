@@ -6,7 +6,9 @@ const Header = () => {
     <div className='header border py-3'>
       <div className="container">
         <Link to='/'>
-          <h1>My Shop</h1>
+          <h1>
+            My Shop
+          </h1>
         </Link>
       </div>
     </div>
